@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"C:\CODE\IAR_CODE\1986BE3T\HelloWorld\Debug\Exe\HelloWorld_3T.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.mac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.board" 
+
+
+
+

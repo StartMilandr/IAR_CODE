@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarUserArgVars>
+    <group name="MDR_Lib" active="true">
+        <variable>
+            <name>MDR_CODE</name>
+            <value>C:\CODE\IAR</value>
+        </variable>
+    </group>
+</iarUserArgVars>

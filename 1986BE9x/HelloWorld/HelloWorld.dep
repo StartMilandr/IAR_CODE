@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2145252880</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_MDR32F9Qx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\inc\MDR32Fx.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HelloWorld.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld.out</file>
+            <file>$PROJ_DIR$\Debug\List\HelloWorld.map</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\CoreSupport\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\Milandr\MDR1986VE9x\MDR32F1.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.pbi</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\CoreSupport\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\CoreSupport\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_rst_clk.o</file>
+            <file>$PROJ_DIR$\..\MDR32F9Qx_board.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_port.o</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_config.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld.hex</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\startup_MDR32F9Qx.s</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\system_MDR32F9Qx.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\system_MDR32F9Qx.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_eth.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MDR32F9Qx_eth.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\IAR\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</file>
+            <file>$PROJ_DIR$\src\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\IAR\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</file>
+            <file>$PROJ_DIR$\..\..\..\IAR\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\IAR\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MDR32F9Qx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\IAR\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</file>
+            <file>$PROJ_DIR$\..\..\1986BE3T\HelloWorld\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_eth.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dma.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM1\DeviceSupport\MDR1986VE3\startup\iar\startup_MDR1986VE3.s</file>
+            <file>$PROJ_DIR$\..\..\1986BE1T\HelloWorld\main.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 28 0 54 17 19 30 20 16 29 2 27 6 35 32 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 28 0 30 6 16 54 20 2 29 3 17 19 35 32 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 27 17 0 3 19 28 35 22 34 54 30 20 6 16 29 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 0 3 19 28 32 17 27 2 40 34 54 30 20 6 16 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\HelloWorld.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 42 33 31 1 53 15 50 24 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\startup_MDR32F9Qx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\system_MDR32F9Qx.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 28 0 30 38 16 54 20 2 29 3 17 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 13 14</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IAR\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 28 0 54 17 19 30 20 16 29 2 27 49 35 32 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 28 0 30 6 16 54 20 2 29 3 17 19 35 32 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 19 0 28 34 32 17 27 40 35 54 30 20 6 16 2 29 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IAR\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IAR\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 27 17 0 3 19 28 35 22 34 54 30 20 6 16 29 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\IAR\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 0 3 19 28 32 17 27 2 40 34 54 30 20 6 16 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_eth.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35 32 34 0 54 17 19 30 20 3 28 16 29 2 27 6 60 58 40 61 63 59 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34 17 32 57 61 20 6 58 0 3 30 27 60 40 59 54 19 28 2 29 35 16 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\arm\system_MDR32F9Qx.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <tool>C-STAT</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
