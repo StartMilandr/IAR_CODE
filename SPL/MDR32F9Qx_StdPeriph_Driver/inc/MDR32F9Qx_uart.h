@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    MDR32F9Qx_uart.h
   * @author  Phyton Application Team
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    27/04/2010
   * @brief   This file contains all the functions prototypes for the UART
   *          firmware library.
@@ -86,6 +86,12 @@ typedef struct
                                             ((PERIPH) == MDR_UART2) || \
                                             ((PERIPH) == MDR_UART3) || \
                                             ((PERIPH) == MDR_UART4))
+
+#elif defined (USE_MDR1901VC1T)
+
+#define IS_UART_ALL_PERIPH(PERIPH)          (((PERIPH) == MDR_UART1) || \
+											 ((PERIPH) == MDR_UART2) || \
+											 ((PERIPH) == MDR_UART3))
 #endif
 
 /** @defgroup UART_Word_Length UART Word Length

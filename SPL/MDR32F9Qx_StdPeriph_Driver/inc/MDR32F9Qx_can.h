@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    MDR32F9Qx_can.h
   * @author  Phyton Application Team
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    20/07/2011
   * @brief   This file contains all the functions prototypes for the CAN
   *          firmware library.
@@ -35,6 +35,8 @@ extern "C" {
 /** @addtogroup __MDR32F9Qx_StdPeriph_Driver MDR32F9Qx Standard Peripherial Driver
   * @{
   */
+
+#if defined (USE_MDR1986VE9x) || defined (USE_MDR1986VE1T) || defined (USE_MDR1986VE3)
 
 /** @addtogroup CAN
   * @{
@@ -526,6 +528,8 @@ void CAN_BRGInit(MDR_CAN_TypeDef* CANx, uint32_t CAN_BRG);
 /** @} */ /* End of group CAN_Exported_Functions */
 
 /** @} */ /* End of group CAN */
+
+#endif /* #if defined (USE_MDR1986VE9x) || defined (USE_MDR1986VE1T) || defined (USE_MDR1986VE3) */
 
 /** @} */ /* End of group MDR32F9Qx_StdPeriph_Driver */
 

@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file	 MDR32F9Qx_eth.c
   * @author	 sidorov.a
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    26.04.2013
   * @brief   This file contains all the ethernet firmware functions.
   ******************************************************************************
@@ -32,6 +32,7 @@
 
 #define ASSERT_INFO_FILE_ID FILEID__MDR32F9X_ETH_C
 
+
 /** @addtogroup __MDR32F9Qx_StdPeriph_Driver MDR32F9Qx Standard Peripherial Driver
   * @{
   */
@@ -55,7 +56,7 @@ extern DMA_CtrlDataTypeDef DMA_ControlTable[DMA_Channels_Number * (1 + DMA_Alter
 
 #if defined (USE_MDR1986VE3)
 	#define IS_ETH_ALL_PERIPH(PERIPH)				((PERIPH == MDR_ETHERNET1) ||\
-													 (PERIPH == MDR_ETHERNET1))
+																					 (PERIPH == MDR_ETHERNET2))
 #elif defined (USE_MDR1986VE1T)
 	#define IS_ETH_ALL_PERIPH(PERIPH)				(PERIPH == MDR_ETHERNET1)
 #endif
@@ -383,7 +384,7 @@ void ETH_StructInit(ETH_InitTypeDef * ETH_InitStruct)
 	ETH_InitStruct->ETH_Hash_Table_Low	= 0x00000000;
 	ETH_InitStruct->ETH_Hash_Table_High = 0x08000000;
 
-	/* Set the pacet interval fo falf duplex mode. */
+	/* Set the pacet interval fo half duplex mode. */
 	ETH_InitStruct->ETH_IPG = 0x0060;
 	/* Set the prescaler increment values ​​BAG and JitterWnd. */
 	ETH_InitStruct->ETH_PSC = 0x0031;
@@ -710,7 +711,7 @@ FlagStatus ETH_GetFlagStatus(MDR_ETHERNET_TypeDef * ETHERNETx, uint16_t ETH_MAC_
 	assert_param(IS_ETH_ALL_PERIPH(ETHERNETx));
 	assert_param(IS_ETH_MAC_FLAG(ETH_MAC_FLAG));
 
-	if(ETHERNETx->ETH_IFR & ETH_MAC_FLAG){
+	if(ETHERNETx->ETH_STAT & ETH_MAC_FLAG){
 		bitstatus = SET;
 	}
 	else{
@@ -929,6 +930,8 @@ uint32_t ETH_WritePHYRegister(MDR_ETHERNET_TypeDef * ETHERNETx, uint16_t PHYAddr
 	tmpreg = ETHERNETx->ETH_MDIO_CTRL;
 	/* Keep only the CSR Clock Range CR[2:0] bits value */
 	tmpreg &= ~ETH_MDIO_CTRL_DIV_Msk;
+	
+	tmpreg &= ~(1 << ETH_MDIO_CTRL_OP_Pos);
 	/* Prepare the MII address register value */
 	tmpreg |= (uint32_t)(PHYAddress << 8) | (PHYReg << 0) | (0 << ETH_MDIO_CTRL_OP_Pos) | (1 << ETH_MDIO_CTRL_RDY_Pos) | (1 << ETH_MDIO_CTRL_PRE_EN_Pos) | (1<<5);
 	/* Give the value to the MII data register */

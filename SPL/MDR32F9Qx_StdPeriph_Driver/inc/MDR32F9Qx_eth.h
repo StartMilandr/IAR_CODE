@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file	 MDR32F9Qx_eth.h
   * @author	 sidorov.a
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    26.04.2013
   * @brief   This file contains all the the functions prototypes for the
   * 		 ethernet firmware library.
@@ -554,6 +554,8 @@ void ETH_SendFrame(MDR_ETHERNET_TypeDef * ETHERNETx, uint32_t * ptr_OututBuffer,
 void ETH_DMAPrepare(void);
 void ETH_DMAFrameRx(uint32_t * DstBuf, uint32_t BufferSize, uint32_t * SrcBuf);
 void ETH_DMAFrameTx(uint32_t * DstBuf, uint32_t BufferSize, uint32_t *  SrcBuf);
+
+FlagStatus ETH_GetFlagStatus(MDR_ETHERNET_TypeDef * ETHERNETx, uint16_t ETH_MAC_FLAG);
 
 /** @} */ /* End of group ETH_Private_Function_Prototypes */
 

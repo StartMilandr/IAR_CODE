@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    MDR32F9Qx_wwdg.c
   * @author  Phyton Application Team
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    27/01/2011
   * @brief   This file contains all the WWDG firmware functions.
   ******************************************************************************
@@ -45,7 +45,7 @@
   * @{
   */
 
-#if defined (USE_MDR1986VE9x)
+#if defined (USE_MDR1986VE9x) || defined (USE_MDR1901VC1T)
 /* WWDG registers bit address in the alias region */
 #define PERIPH_BASE                 0x40000000
 #define PERIPH_BB_BASE              0x42000000
@@ -150,7 +150,7 @@ void WWDG_SetWindowValue(uint32_t WindowValue)
   */
 void WWDG_EnableIT ( void )
 {
-#if defined (USE_MDR1986VE9x)
+#if defined (USE_MDR1986VE9x) || defined (USE_MDR1901VC1T)
 	*(__IO uint32_t *) EWI_BB = (uint32_t) ENABLE;
 #elif defined (USE_MDR1986VE3) || defined (USE_MDR1986VE1T)
 	MDR_WWDG->CFR |= WWDG_CFR_EWI;

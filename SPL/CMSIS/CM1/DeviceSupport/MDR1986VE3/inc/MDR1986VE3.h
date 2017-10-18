@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file	 MDR1986VE3.h
   * @author  Sidorov Andrey
-  * @version V1.4.0
+  * @version V1.3.0
   * @date	 22/02/2013
   * @brief	 This file contains all the Special Function Registers definitions
   * 		 for the Milandr 1986VE3 microcontroller.
@@ -4004,7 +4004,7 @@ typedef struct
 #define AUDIO_IP_DACCTL_DAGAIN_Pos            	 0
 #define AUDIO_IP_DACCTL_MUTE1_Pos            	 6
 #define AUDIO_IP_DACCTL_ODAMP_Pos            	 7
-#define AUDIO_IP_DACCTL_BIAS_Pos            	 8
+#define AUDIO_IP_DACCTL_ODBIAS_Pos            	 8
 #define AUDIO_IP_DACCTL_ODDAC_Pos            	 9
 #define AUDIO_IP_DACCTL_OVECBA_Pos            	 10
 #define AUDIO_IP_DACCTL_OVECBS_Pos            	 11
@@ -4015,7 +4015,7 @@ typedef struct
 #define AUDIO_IP_DACCTL_DAGAIN_Msk	             	((uint32_t)0x0000003F)
 #define AUDIO_IP_DACCTL_MUTE1		             	((uint32_t)0x00000040)
 #define AUDIO_IP_DACCTL_ODAMP						((uint32_t)0x00000080)
-#define AUDIO_IP_DACCTL_BIAS                	 	((uint32_t)0x00000100)
+#define AUDIO_IP_DACCTL_ODBIAS                	 	((uint32_t)0x00000100)
 #define AUDIO_IP_DACCTL_ODDAC                	 	((uint32_t)0x00000200)
 #define AUDIO_IP_DACCTL_OVECBA                	 	((uint32_t)0x00000400)
 #define AUDIO_IP_DACCTL_OVECBS                	 	((uint32_t)0x00000800)

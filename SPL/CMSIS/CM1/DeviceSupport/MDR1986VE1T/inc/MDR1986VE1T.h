@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file	 MDR1986VE1T.h
   * @author  Sidorov Andrey
-  * @version V1.4.0
+  * @version V1.3.0
   * @date	 22/02/2013
   * @brief	 This file contains all the Special Function Registers definitions
   * 		 for the Milandr 1986V1T microcontroller.
@@ -3984,6 +3984,11 @@ typedef struct {
 /** @} */ /* End of group __CMSIS */
 
 #endif /* __MDR1986VE1T_H */
+
+#ifdef __cplusplus
+}
+#endif
+
 
 /******************* (C) COPYRIGHT 2013 Milandr ********************************
 *

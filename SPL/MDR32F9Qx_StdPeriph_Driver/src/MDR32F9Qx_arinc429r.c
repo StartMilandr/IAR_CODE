@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file	 MDR32F9Qx_arinc429R.c
   * @author	 sidorov.a
-  * @version V1.4.0
+  * @version V1.3.0
   * @date    15.04.2013
   * @brief   This file contains all the ARINC429R firmware functions.
   ******************************************************************************
