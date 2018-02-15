@@ -367,7 +367,7 @@ ITStatus UART_GetITStatusMasked(MDR_UART_TypeDef* UARTx, uint32_t UART_IT)
 }
 
 /**
-  * @brief  Clears the UARTx’s interrupt pending bits.
+  * @brief  Clears the UARTx's interrupt pending bits.
   * @param  UARTx: Select the UART or the UART peripheral.
   *         This parameter can be one of the following values:
   *         UART1, UART2.
@@ -427,7 +427,7 @@ void UART_DMAConfig(MDR_UART_TypeDef* UARTx, uint32_t UART_IT_RB_LVL, uint32_t U
 }
 
 /**
-  * @brief  Enables or disables the UART’s DMA interface.
+  * @brief  Enables or disables the UART's DMA interface.
   * @param  UARTx: Select the UART peripheral.
   *         This parameter can be one of the following values:
   *         UART1, UART2.
@@ -524,7 +524,7 @@ void UART_BreakLine(MDR_UART_TypeDef* UARTx, FunctionalState NewState)
 }
 
 /**
-  * @brief  Configures the UART’s IrDA interface.
+  * @brief  Configures the UART's IrDA interface.
   * @param  UARTx: Select the UART peripheral.
   *         This parameter can be one of the following values:
   *         UART1, UART2.
@@ -554,7 +554,7 @@ void UART_IrDAConfig(MDR_UART_TypeDef* UARTx, uint32_t UART_IrDAMode)
 }
 
 /**
-  * @brief  Enables or disables the UART’s IrDA interface.
+  * @brief  Enables or disables the UART's IrDA interface.
   * @param  UARTx: Select the UART peripheral.
   *         This parameter can be one of the following values:
   *         UART1, UART2.

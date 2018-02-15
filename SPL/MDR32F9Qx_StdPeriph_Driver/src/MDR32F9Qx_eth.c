@@ -386,7 +386,7 @@ void ETH_StructInit(ETH_InitTypeDef * ETH_InitStruct)
 
 	/* Set the pacet interval fo half duplex mode. */
 	ETH_InitStruct->ETH_IPG = 0x0060;
-	/* Set the prescaler increment values ​​BAG and JitterWnd. */
+	/* Set the prescaler increment values for BAG and JitterWnd. */
 	ETH_InitStruct->ETH_PSC = 0x0031;
 	/* Set period the following of packages.*/
 	ETH_InitStruct->ETH_BAG = 0x0064;
@@ -528,7 +528,7 @@ void ETH_Init(MDR_ETHERNET_TypeDef * ETHERNETx, ETH_InitTypeDef * ETH_InitStruct
 
 	/* Set the pacet interval fo falf duplex mode. */
 	ETHERNETx->ETH_IPG = ETH_InitStruct->ETH_IPG;
-	/* Set the prescaler increment values ​​BAG and JitterWnd. */
+	/* Set the prescaler increment values for BAG and JitterWnd. */
 	ETHERNETx->ETH_PSC = ETH_InitStruct->ETH_PSC;
 	/* Set period the following of packages.*/
 	ETHERNETx->ETH_BAG = ETH_InitStruct->ETH_BAG;

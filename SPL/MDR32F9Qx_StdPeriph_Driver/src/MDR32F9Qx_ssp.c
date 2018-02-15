@@ -275,7 +275,7 @@ ITStatus SSP_GetITStatusMasked(MDR_SSP_TypeDef* SSPx, uint32_t SSP_IT)
 }
 
 /**
-  * @brief  Clears the SSPx’s interrupt pending bits.
+  * @brief  Clears the SSPx's interrupt pending bits.
   * @param  SSPx: Select the SSP or the SSP peripheral.
   *         This parameter can be one of the following values:
   *         SSP1, SSP2.
@@ -295,7 +295,7 @@ void SSP_ClearITPendingBit(MDR_SSP_TypeDef* SSPx, uint32_t SSP_IT)
 }
 
 /**
-  * @brief  Enables or disables the SSP’s DMA interface.
+  * @brief  Enables or disables the SSP's DMA interface.
   * @param  SSPx: Select the SSP peripheral.
   *         This parameter can be one of the following values:
   *         SSP1, SSP2.
@@ -439,30 +439,26 @@ void SSP_BRGInit ( MDR_SSP_TypeDef* SSPx, uint32_t SSP_BRG ) {
 		tmpreg &= ~RST_CLK_SSP_CLOCK_SSP1_BRG_Msk;
 		tmpreg |= SSP_BRG;
 	}
-	else{
-		if (SSPx == MDR_SSP2) {
+	else if (SSPx == MDR_SSP2) {
 			tmpreg |= RST_CLK_SSP_CLOCK_SSP2_CLK_EN;
 			tmpreg &= ~RST_CLK_SSP_CLOCK_SSP2_BRG_Msk;
 			tmpreg |= (SSP_BRG << 8);
 		}
-#if defined  (USE_MDR1986VE3) || defined (USE_MDR1901VC1T)
-		else{
-			if(SSPx == MDR_SSP3) {
-				tmpreg |= RST_CLK_SSP_CLOCK_SSP3_CLK_EN;
-				tmpreg &= ~RST_CLK_SSP_CLOCK_SSP3_BRG_Msk;
-				tmpreg |= (SSP_BRG << RST_CLK_SSP_CLOCK_SSP3_BRG_Pos);
-			}
-
-			else{
-				if(SSPx == MDR_SSP4) {
-					tmpreg |= SSP4_CLK_EN;
-					tmpreg &= ~SSP4_BRG_Mask;
-					tmpreg |= (SSP_BRG << SSP4_BRG_Pos);
-				}
-			}
+#if defined (USE_MDR1986VE1) || defined (USE_MDR1986VE3) || defined (USE_MDR1901VC1T)
+	else if(SSPx == MDR_SSP3) {
+			tmpreg |= RST_CLK_SSP_CLOCK_SSP3_CLK_EN;
+			tmpreg &= ~RST_CLK_SSP_CLOCK_SSP3_BRG_Msk;
+			tmpreg |= (SSP_BRG << RST_CLK_SSP_CLOCK_SSP3_BRG_Pos);
 		}
-#endif // #ifdef USE_MDR1986VE3 /* For Cortex M1 */
-	}
+#endif      
+#if defined (USE_MDR1986VE3) || defined (USE_MDR1901VC1T)
+	else if(SSPx == MDR_SSP4) {
+			tmpreg |= SSP4_CLK_EN;
+			tmpreg &= ~SSP4_BRG_Mask;
+			tmpreg |= (SSP_BRG << SSP4_BRG_Pos);
+		}
+#endif  
+
 #ifdef USE_MDR1986VE3 /* For Cortex M1 */
 	if( (SSPx != MDR_SSP1) && (SSPx != MDR_SSP2) && (SSPx != MDR_SSP3) ){
 		MDR_RST_CLK->UART_SSP_CLOCK = tmpreg;

@@ -47,7 +47,7 @@ extern "C" {
 /**
  * @brief	AUDIO IP Structure defintion
  * @note	The user should not configure all the AUDIO_IP_InitTypeDef structure's fields.
- *   		By calling the AUDIO_IP_StructInit function the structure’s fields are set to their default values.
+ *   		By calling the AUDIO_IP_StructInit function the structure's fields are set to their default values.
  *   		Only the parameters that will be set to a non-default value should be configured.
  */
 

@@ -163,7 +163,7 @@ typedef struct {
 
 	uint32_t 			ETH_IPG;							/*!< The value of inter-packet interval for full duplex
 																 This parameter can be a value from 0 to 0xFFFF. */
-	uint32_t 			ETH_PSC;							/*!< Prescaler value increment values ​​BAG and JitterWnd.
+	uint32_t 			ETH_PSC;							/*!< Prescaler value increment values for BAG and JitterWnd.
 																 This parameter can be a value from 0 to 0xFFFF. */
 	uint32_t 			ETH_BAG;							/*!< The period value of the packets.
 																 This parameter can be a value from 0 to 0xFFFF. */

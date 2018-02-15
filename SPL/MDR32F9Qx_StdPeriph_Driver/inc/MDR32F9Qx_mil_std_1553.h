@@ -230,7 +230,7 @@ typedef enum {
 												 MIL_STD_1553_IT_VALMESSIE |\
 												 MIL_STD_1553_IT_ERRIE)
 
-#define IS_MIL_STD_1553_IT(IT)					((IT) & (~MIL_STD_1553_IT_MASK) == 0)
+#define IS_MIL_STD_1553_IT(IT)					(((IT) & (~MIL_STD_1553_IT_MASK)) == 0)
 
 /*
 #define IS_MIL_STD_1553_IT(IT)					(((IT) == MIL_STD_1553_IT_IDLEIE) ||\

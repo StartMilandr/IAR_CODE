@@ -178,8 +178,11 @@ void DMA_DeInit(void)
   MDR_DMA->CFG = 0;                           /* Master Enable Off */
   MDR_DMA->CTRL_BASE_PTR = 0;                 /* Control data base pointer */
   MDR_DMA->CHNL_SW_REQUEST = 0;               /* Disable all sw requests */
-  MDR_DMA->CHNL_USEBURST_CLR = 0xFFFFFFFF;    /* Disable burst mode */
-  MDR_DMA->CHNL_REQ_MASK_CLR = 0xFFFFFFFF;    /* Clear mask request */
+  //MDR_DMA->CHNL_USEBURST_CLR = 0xFFFFFFFF;    /* Disable burst mode */
+  MDR_DMA->CHNL_USEBURST_SET = 0xFFFFFFFF;    /* Disable burst mode */
+  //MDR_DMA->CHNL_REQ_MASK_CLR = 0xFFFFFFFF;    /* Clear mask request */
+  MDR_DMA->CHNL_REQ_MASK_SET = 0xFFFFFFFF;    /* Disable all channel*/
+  
   MDR_DMA->CHNL_ENABLE_CLR = 0xFFFFFFFF;      /* Clear channel enable */
   MDR_DMA->CHNL_PRI_ALT_CLR = 0xFFFFFFFF;     /* Reset to primary data structure */
   MDR_DMA->CHNL_PRIORITY_CLR = 0xFFFFFFFF;    /* Reset to default priority */
