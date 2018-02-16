@@ -3154,6 +3154,7 @@ typedef struct
 	__IO uint32_t DATA3_T;
 	__IO uint32_t DATA4_T;
 	__IO uint32_t CONTROL3;
+	__IO uint32_t CONTROL4;
 }MDR_ARINC429T_TypeDef;
 
 /** @} */ /* End of group Periph_ARINC429T_Data_Structures */

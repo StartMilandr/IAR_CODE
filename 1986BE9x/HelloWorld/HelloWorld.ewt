@@ -2316,10 +2316,10 @@
     <group>
         <name>Driver</name>
         <file>
-            <name>$MDR_CODE$\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</name>
+            <name>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_port.c</name>
         </file>
         <file>
-            <name>$MDR_CODE$\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</name>
+            <name>$PROJ_DIR$\..\..\SPL\MDR32F9Qx_StdPeriph_Driver\src\MDR32F9Qx_rst_clk.c</name>
         </file>
     </group>
     <group>
@@ -2331,13 +2331,13 @@
     <group>
         <name>Startup</name>
         <file>
-            <name>$MDR_CODE$\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</name>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\startup_MDR32F9Qx.s</name>
         </file>
         <file>
-            <name>$MDR_CODE$\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</name>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.c</name>
         </file>
         <file>
-            <name>$MDR_CODE$\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.h</name>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM3\DeviceSupport\MDR32F9Qx\startup\iar\system_MDR32F9Qx.h</name>
         </file>
     </group>
 </project>
