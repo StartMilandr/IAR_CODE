@@ -36,7 +36,7 @@
                 </option>
                 <option>
                     <name>MacFile</name>
-                    <state>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE1T\Flash_MDR1986VE1T.mac</state>
+                    <state>$TOOLKIT_DIR$\config\flashloader\Milandr\MLDR124\MLDR124.mac</state>
                 </option>
                 <option>
                     <name>MemOverride</name>
@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>MemFile</name>
-                    <state>$TOOLKIT_DIR$\config\debugger\Milandr\jbr_MDR1986VE1T.ddf</state>
+                    <state>$TOOLKIT_DIR$\CONFIG\debugger\Milandr\MLDR124.ddf</state>
                 </option>
                 <option>
                     <name>RunToEnable</name>
@@ -112,7 +112,7 @@
                 </option>
                 <option>
                     <name>FlashLoadersV3</name>
-                    <state>$TOOLKIT_DIR$\config\flashloader\Milandr\MDR1986VE1T\Flash_MDR1986VE1T.board</state>
+                    <state>$TOOLKIT_DIR$\config\flashloader\Milandr\MLDR124\MLDR124.board</state>
                 </option>
                 <option>
                     <name>OCImagesSuppressCheck1</name>
@@ -140,7 +140,7 @@
                 </option>
                 <option>
                     <name>OverrideDefFlashBoard</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>OCImagesOffset1</name>
@@ -823,7 +823,7 @@
                 <option>
                     <name>CCJLinkResetList</name>
                     <version>6</version>
-                    <state>7</state>
+                    <state>10</state>
                 </option>
                 <option>
                     <name>CCJLinkInterfaceCmdLine</name>

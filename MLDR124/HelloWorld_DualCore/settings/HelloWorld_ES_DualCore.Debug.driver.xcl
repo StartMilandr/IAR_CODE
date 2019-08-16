@@ -1,18 +1,18 @@
 "--endian=little" 
 
-"--cpu=Cortex-M1" 
+"--cpu=Cortex-M4" 
 
 "--fpu=None" 
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\Milandr\jbr_MDR1986VE1T.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CONFIG\debugger\Milandr\MLDR124.ddf" 
 
 "--drv_verify_download" 
 
 "--semihosting" 
 
-"--device=MDR1986VE1T" 
+"--device=MLDR124" 
 
 "--drv_communication=USB0" 
 
@@ -20,7 +20,7 @@
 
 "--jlink_initial_speed=1000" 
 
-"--jlink_reset_strategy=0,0" 
+"--jlink_reset_strategy=0,2" 
 
 "--drv_catch_exceptions=0x000" 
 

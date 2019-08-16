@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\1986BE9x\HelloWorld\HelloWorld.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\1986BE1T\HelloWorld\HelloWorld_1T.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\1986BE3T\HelloWorld\HelloWorld_3T.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\MLDR124\HelloWorld\HelloWorld_ES.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\MLDR124\HelloWorld_DualCore\HelloWorld_ES_DualCore.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

@@ -6,9 +6,9 @@
 
 --plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
 
---macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.mac" 
+--macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE1T\Flash_MDR1986VE1T.mac" 
 
---flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE3\Flash_MDR1986VE3.board" 
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MDR1986VE1T\Flash_MDR1986VE1T.board" 
 
 
 

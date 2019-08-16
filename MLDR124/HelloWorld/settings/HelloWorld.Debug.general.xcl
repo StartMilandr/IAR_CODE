@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"C:\CODE\IAR_CODE\MLDR124\HelloWorld\Debug\Exe\HelloWorld.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MLDR124\MLDR124.mac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MLDR124\MLDR124.board" 
+
+
+
+

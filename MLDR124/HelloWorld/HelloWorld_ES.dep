@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3479915392</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\src\mldr124_port.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\linker\Milandr\MLDR124\MLDR124.icf</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\List\HelloWorld_ES.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld.hex</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld.out</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\inc\mldr124.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\system_mldr124.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\CoreSupport\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\inc\mldr124_port.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld_ES.out</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld_ES.hex</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\mldr124_config.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\CoreSupport\cmsis_compiler.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 21 24 18 23 19 20 17 31 28 29 16 22 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 21 20 22 16 24 18 17 30 31 23 19 28 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\src\mldr124_port.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 30 24 18 23 19 20 17 15 21 31 28 29 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 16 18 19 23 30 15 31 29 22 20 17 21 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\HelloWorld.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\HelloWorld_ES.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 3 11 10 4 5 6 7</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

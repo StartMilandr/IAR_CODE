@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2092107961</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\src\mldr124_port.c</file>
+            <file>$PROJ_DIR$\mutex.s</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\startup_mldr124_DC.s</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\system_mldr124.c</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\startup_mldr124.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HelloWorld_ES_DualCore.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld_ES_DualCore.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\system_mldr124.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\CoreSupport\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\CoreSupport\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\inc\mldr124.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.__cstat.et</file>
+            <file>$PROJ_DIR$\mldr124_config.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\inc\mldr124_delay.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\inc\mldr124_timer.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\inc\mldr124_port.h</file>
+            <file>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\inc\mldr124_clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_mldr124.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\HelloWorld_ES_DualCore.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mldr124.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mldr124.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mutex.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\List\HelloWorld_ES_DualCore.map</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\Milandr\MLDR124\MLDR124.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mldr124_port.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mldr124.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_mldr124_DC.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12 22 24 21 36 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20 31 30 36 24 17 14 22 21 18 39 33 12 23 42 38 16 15 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\src\mldr124_port.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 39 38 31 20 42 16 15 13 23 17 33 12 14</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\mutex.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\startup_mldr124_DC.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\system_mldr124.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 16 18 39 31 33 42 38 15 14 13 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 16 15 12 31 33 14 17 18 39 42 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\startup_mldr124.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\HelloWorld_ES_DualCore.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 37 10 40 29 45 28 11 35 43 32</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
