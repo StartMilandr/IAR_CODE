@@ -1,6 +1,6 @@
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armJET.dll" 
 
 "C:\CODE\IAR_CODE\MLDR124\HelloWorld_DualCore\Debug\Exe\HelloWorld_ES_DualCore.out" 
 
@@ -9,6 +9,14 @@
 --macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MLDR124\MLDR124.mac" 
 
 --flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\flashloader\Milandr\MLDR124\MLDR124.board" 
+
+--multicore_master 
+
+"--multicore_port=53461" 
+
+--multicore_slave_front_setup="C:\CODE\IAR_CODE\settings\HelloWorld_ES_DualCore.Debug.frontCmd.txt" 
+
+--multicore_slave_back_setup="C:\CODE\IAR_CODE\settings\HelloWorld_ES_DualCore.Debug.backCmd.txt" 
 
 
 

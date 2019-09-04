@@ -53,17 +53,12 @@
             <file>$PROJ_DIR$\Debug\Obj\startup_mldr124_DC.o</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 34 8</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
                 <tool>
                     <name>__cstat</name>
                     <file> 6</file>
@@ -72,25 +67,25 @@
                     <name>ICCARM</name>
                     <file> 10</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 9</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12 22 24 21 36 30</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 20 31 30 36 24 17 14 22 21 18 39 33 12 23 42 38 16 15 13</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12 22 24 21 36 30</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\SPL\MLDR124_StdPeriph_Driver\src\mldr124_port.c</name>
             <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
                 <tool>
                     <name>__cstat</name>
                     <file> 19</file>
@@ -99,19 +94,15 @@
                     <name>ICCARM</name>
                     <file> 40</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 41</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 18 39 38 31 20 42 16 15 13 23 17 33 12 14</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 20 18 39 31 33 42 38 17 16 15 14 13 12</file>
                 </tool>
             </inputs>
         </file>
@@ -137,6 +128,10 @@
             <name>$PROJ_DIR$\..\..\SPL\CMSIS\CM4\DeviceSupport\MLDR124\startup\iar\system_mldr124.c</name>
             <outputs>
                 <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
                     <name>__cstat</name>
                     <file> 44</file>
                 </tool>
@@ -144,19 +139,15 @@
                     <name>ICCARM</name>
                     <file> 28</file>
                 </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 17 16 18 39 31 33 42 38 15 14 13 12</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 13 16 15 12 31 33 14 17 18 39 42 38</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 16 18 39 31 33 42 38 15 14 13 12</file>
                 </tool>
             </inputs>
         </file>
@@ -173,12 +164,12 @@
             <name>$PROJ_DIR$\Debug\Exe\HelloWorld_ES_DualCore.out</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 34</file>
-                </tool>
-                <tool>
                     <name>OBJCOPY</name>
                     <file> 26</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
@@ -187,6 +178,15 @@
                     <file> 37 10 40 29 45 28 11 35 43 32</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8 34</file>
+                </tool>
+            </outputs>
         </file>
     </configuration>
     <configuration>

@@ -9,7 +9,7 @@ volatile uint32_t hardFaultNum;
 #define locked   1
 #define unlocked 0
 
-#define BRD_V3
+#define BRD_V2
 
 #ifdef BRD_V3
   #define LedGreen PORT_Pin_17
@@ -47,6 +47,14 @@ unsigned int output_mutex = unlocked;
 
 void vErrorHandler( void );
 
+//  ОПИСАНИЕ:
+//    Два ядра независимо исполняют два бесконечных цикла, в каждом цикле мигает свой светодиод.
+//
+//    Распараллеливание ядер происходит в Reset_Handler - startup_mldr124_DC.s
+//    После Reset ядра остаются разделенными и вместе начинают исполнять начальный загрузчик.
+//    Из-за этого ядра конфликтуют и поэтому по Reset проект не перезапускается.
+//    Мигание двумя светодиодами наблюдается только при включении питания!
+
 int main()
 {
     volatile uint32_t cnt;
@@ -77,20 +85,25 @@ int main()
       Port.PORT_SPWR    = PORT_SPWR_10;
       PORT_Init( PORTA, &Port );
     }
-    
-    while( 1 )
-    {
-      lock_mutex(&output_mutex); // Wait until the mutex is acquired 
-      // call  nonreenterable
-      unlock_mutex(&output_mutex); // Leave critical section - release mutex 
-      
-      if (SMPID)
+
+    if (SMPID)
+      while (1)
+      {
+        lock_mutex(&output_mutex); // Wait until the mutex is acquired 
+        // call  nonreenterable
+        unlock_mutex(&output_mutex); // Leave critical section - release mutex 
+        
         LED_Show(LedBlue, LED_DELAY_B);
-      else 
+      }
+    else 
+      while (1)
+      {
+        lock_mutex(&output_mutex); // Wait until the mutex is acquired 
+        // call  nonreenterable
+        unlock_mutex(&output_mutex); // Leave critical section - release mutex 
+        
         LED_Show(LedGreen, LED_DELAY_G);
-      
-        //printf("Done\n");
-    }
+      }
 }
 
 void vErrorHandler( void )

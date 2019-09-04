@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sessionSetup><partner><name>Master</name><workspace>$WS_PATH$</workspace><project>$PROJ_PATH$</project><config>FLASH</config><numberOfCores>1</numberOfCores><port>53461</port></partner><partner><name>Slave</name><workspace>$WS_DIR$\MLDR124_slave.eww</workspace><project>MLDR124_test</project><config>FLASH</config><numberOfCores>1</numberOfCores><port>53461</port><attachToRunningTarget>false</attachToRunningTarget></partner></sessionSetup>

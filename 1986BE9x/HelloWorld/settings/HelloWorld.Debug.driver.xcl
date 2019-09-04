@@ -26,6 +26,8 @@
 
 "--drv_swo_clock_setup=8000000,0,2000000" 
 
+"--multicore_slave" 
+
 
 
 

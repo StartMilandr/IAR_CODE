@@ -84,7 +84,7 @@
                 </option>
                 <option>
                     <name>OCDynDriverList</name>
-                    <state>JLINK_ID</state>
+                    <state>IJET_ID</state>
                 </option>
                 <option>
                     <name>OCLastSavedByProductVersion</name>
@@ -184,7 +184,7 @@
                 </option>
                 <option>
                     <name>OCMulticoreMaster</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCMulticorePort</name>
@@ -192,15 +192,15 @@
                 </option>
                 <option>
                     <name>OCMulticoreWorkspace</name>
-                    <state></state>
+                    <state>C:\CODE\IAR_CODE\HelloWorld_All.eww</state>
                 </option>
                 <option>
                     <name>OCMulticoreSlaveProject</name>
-                    <state></state>
+                    <state>HelloWorld_ES_DualCore</state>
                 </option>
                 <option>
                     <name>OCMulticoreSlaveConfiguration</name>
-                    <state></state>
+                    <state>Debug</state>
                 </option>
                 <option>
                     <name>OCDownloadExtraImage</name>
@@ -500,7 +500,7 @@
                 <option>
                     <name>IjetResetList</name>
                     <version>1</version>
-                    <state>10</state>
+                    <state>4</state>
                 </option>
                 <option>
                     <name>IjetHWResetDuration</name>
